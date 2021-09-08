@@ -31,7 +31,7 @@ body {
 .row {
     position: relative;
     height: 400px;
-    width: 80%;
+    width: 800px;
     margin: 2rem auto;
 }
 
@@ -117,4 +117,27 @@ body {
 
 .img6:hover {
     background-image: url(./img/6b.webp);
+}
+
+.label>span {
+    color: white;
+    padding: 8px;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.label span.discount {
+    background-color: #EB0037;
+}
+
+.label span.check {
+    background-color: #00875A;
+}
+
+.product .label {
+    position: absolute;
+    left: 0;
+    bottom: 15px;
 }
